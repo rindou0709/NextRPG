@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <meta charset="utf-8">
+        <link rel="resetsheet" href="css/sanitize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>NextRPGGame</title>
+    </head>
+
+    <!-- ボディ -->
+    <body>
+        <header>
+            <a href="index.html">ここロゴ...</a>
+            <ul>
+                <li class="hlist1"> <a href="timeline.html">TimeLine</a></li>
+                <li class="hlist2"> <a href="roadmap.html">ROADMAP</a> </li>
+                <li> <p>　　　　　</p> </li>
+            </ul>
+        </header>
+
+
+        <div id="big-image">
+            <img src="images/bigimage.png" alt="でかい画像">
+        </div>
+        
+        <main>
+            <div id="content">
+                
+                <!-- イベントがあるときのみ表示される(ようにしたい) -->
+                <div class="event">
+                    <h1>イベント</h1>
+                    <br>
+                    <br>
+                    <h2>αテストまで</h2>
+                    <h2 class="timer">あと<span id="day"></span>日<span id="hour"></span>時間<span id="min"></span>分<span id="sec"></span>秒</h2>
+                    
+                    <p>開始日より3日間プレイヤーはだれでも参加することができます。<br>
+                        αテストでは、システムの動作確認や広域的なデバッグをメインとしています。</p>
+                        <form>
+                            <input type="button">
+                </div>
+                <!-- 概要 -->
+                <div class="main1">
+                    <h1>概要</h1>
+                    <br>
+                    <br>
+                    <p>NextRPGGame(名称未定)は、GreaptGameStudioがROBLOXを用いて制作しているMORPGです。</p>
+                </div>
+
+                <!-- 世界観説明 -->
+                <div class="main2">
+                    <h1>世界観</h1>
+                    <br>
+                    <br>
+                    <p>
+                        2043年、地球上に突如として謎の生命体が現れ世界人口の9割が死亡した。<br>
+                        そして謎の生命体は、数多くのモノから逸脱している事から「Anomaly」と呼ばれた。<br>
+                        <br>
+                        太平洋南部「ポイント・ネモ」から北にある大陸「アストラ」。<br>
+                        アストラも例外なくAnomalyの影響を受けたが、世界各国に比べ酷い状態にあった。<br>
+                        内部で抗争が多発し、人々も殺しあった。<br>
+                        それからAnomaly出現から数年がたち大陸の情勢が落ち着いたころに<br>
+                        プレイヤーは、アストラ最南部の支部「ヘルストア」の一員となり戦う。<br>
+                        プレイヤーやその仲間と共にAnomalyに抗おう。<br>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+
+                <!-- ロードマップ説明 -->
+                <div class="main3">
+                    <h1>ロードマップ</h1>
+                    <div id="RoadMapVersion">
+                        <h2>version 0.1.0α(第１回アルファテスト)</h2>
+                        
+                        <p>
+                            ・数種類程度の敵<br>
+                            ・３種類の武器種（各種１本ずつ）<br>
+                            ・いくつかのクエスト
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>version 0.2.0α(第2回アルファテスト)</h2>
+                        <p>
+                            ・1,2種類程度の敵を追加<br>
+                            ・各武器種に2本ずつ追加<br>
+                            ・各武器種にスキル<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- サイドバー -->
+            <div id="sidebar">
+                <h3>ここサイドバー</h3>
+            </div>
+        </main>
+
+        <!-- ナビゲーションメニュー -->
+        <nav id="nav">
+            <div class="hamburger" id="open_nav">
+                <img src="images/hamburger.png" alt="hamburger.png">
+            </div>
+            <ul>
+                <li></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="https://trello.com/b/OwalHXrh/nextrpggame%E8%BA%AB%E5%86%85%E7%94%A8" target="_blank">NextRPGGame Trello</a></li>
+                <li><a href="wip.html" target="_blank">ほかのゲーム</a></li>
+                <li><a href="https://www.roblox.com/groups/13231189/Greapt-Game-Studio#!/about" target="_blank">Greapt Game Studioのページへ</a></li>
+            </ul>
+        </nav>
+
+        <!-- フッター -->
+        <footer>
+            <p>Copyright © 2022 GreaptGameStudio All Rights Reserved.</p>
+        </footer>
+    </body>
+
+    <!-- スクリプト -->
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="js/burgerShowHide.js"></script>
+    <script src="js/CountDown.js"></script>
+    <script>
+
+    </script>
+</html>
