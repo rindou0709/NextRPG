@@ -13,7 +13,7 @@ function countdown(due) {
     return count;
 }
 
-const goal = new Date(2023, 3, 5); //月１プラスする
+const goal = new Date(2023, 2, 7); //月１プラスする
 
 function recalc() {
     const counter = countdown(goal);
